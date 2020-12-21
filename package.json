@@ -1,6 +1,6 @@
 {
   "name": "command-arguments-helper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A typescript library.",
   "main": "lib/index.js",
   "jsnext:main": "src/index.ts",

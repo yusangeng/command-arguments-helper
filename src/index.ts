@@ -1,4 +1,4 @@
-export default function commandArgumentHelper<T extends any[]>(argKeys: string[], rawArgs: string[]): T {
+export default function commandArgumentsHelper<T extends any[]>(argKeys: string[], rawArgs: string[]): T {
   const argMap: Record<string, any> = {};
 
   rawArgs.forEach(el => {
